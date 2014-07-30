@@ -37,7 +37,7 @@ CLOPS=(${CLOPS[*]} --region $RD_CONFIG_REGION)
 
 # Turn on verbose if the user specified it.
 if [[ "true" == ${RD_CONFIG_VERBOSE} ]]
-then CLOPS=(${CLOPS[*]} -verbose)
+then CLOPS=(${CLOPS[*]} --verbose)
 fi 
 
 # Execute the command!
